@@ -12,3 +12,6 @@ body{
   font-family: "Inter", sans-serif;
   
 }
+.bdown{
+  transition: 0.1s;
+}
