@@ -6,7 +6,7 @@
     "playerRole": "Batsman",
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm medium",
-    "price": "2,000,000 ",
+    "price": "2000000 ",
     "rating": 9.8
   },
   {
@@ -16,7 +16,7 @@
     "playerRole": "Batsman",
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm offbreak",
-    "price": "1,900,000 ",
+    "price": "1900000 ",
     "rating": 9.5
   },
   {
@@ -26,7 +26,7 @@
     "playerRole": "All-rounder",
     "battingStyle": "Left-hand bat",
     "bowlingStyle": "Right-arm fast-medium",
-    "price": "1,800,000 ",
+    "price": "1800000 ",
     "rating": 9.4
   },
   {
@@ -36,7 +36,7 @@
     "playerRole": "Bowler",
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm legbreak",
-    "price": "1,500,000 ",
+    "price": "1500000 ",
     "rating": 9.2
   },
   {
@@ -46,7 +46,7 @@
     "playerRole": "Batsman",
     "battingStyle": "Left-hand bat",
     "bowlingStyle": "Right-arm legbreak",
-    "price": "1,700,000 ",
+    "price": "1700000 ",
     "rating": 9.0
   },
   {
@@ -56,7 +56,7 @@
     "playerRole": "Bowler",
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm fast",
-    "price": "2,200,000 ",
+    "price": "2200000 ",
     "rating": 9.7
   },
   {
@@ -66,7 +66,7 @@
     "playerRole": "Batsman",
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm legbreak",
-    "price": "1,600,000 ",
+    "price": "1600000 ",
     "rating": 9.3
   },
   {
@@ -76,7 +76,7 @@
     "playerRole": "Batsman",
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm offbreak",
-    "price": "1,500,000 ",
+    "price": "1500000 ",
     "rating": 9.4
   },
   {
@@ -86,7 +86,7 @@
     "playerRole": "All-rounder",
     "battingStyle": "Left-hand bat",
     "bowlingStyle": "Left-arm orthodox",
-    "price": "1,400,000 ",
+    "price": "1400000 ",
     "rating": 9.1
   },
   {
@@ -96,7 +96,7 @@
     "playerRole": "Batsman",
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm offbreak",
-    "price": "1,800,000 ",
+    "price": "1800000 ",
     "rating": 9.6
   },
   {
@@ -106,7 +106,7 @@
     "playerRole": "Wicketkeeper-Batsman",
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm medium",
-    "price": "2,100,000 ",
+    "price": "2100000 ",
     "rating": 9.9
   },
   {
@@ -116,7 +116,7 @@
     "playerRole": "All-rounder",
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm fast",
-    "price": "1,900,000 ",
+    "price": "1900000 ",
     "rating": 9.2
   },
   {
@@ -126,7 +126,7 @@
     "playerRole": "Wicketkeeper-Batsman",
     "battingStyle": "Left-hand bat",
     "bowlingStyle": "Right-arm offbreak",
-    "price": "1,500,000 ",
+    "price": "1500000 ",
     "rating": 8.9
   },
   {
@@ -136,7 +136,7 @@
     "playerRole": "Bowler",
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Left-arm fast-medium",
-    "price": "1,600,000 ",
+    "price": "1600000 ",
     "rating": 9.0
   },
   {
@@ -146,7 +146,7 @@
     "playerRole": "Wicketkeeper-Batsman",
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm medium",
-    "price": "1,400,000 ",
+    "price": "1400000 ",
     "rating": 9.1
   }
 ]

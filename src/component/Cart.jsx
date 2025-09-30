@@ -1,16 +1,38 @@
-import React from 'react';
+import React, { useState } from 'react';
 import img1 from "../assets/Group (1).png"
 
-import { Flag } from 'lucide-react';
+import { CircleCheckBig, Flag, X } from 'lucide-react';
+import { toast } from 'react-toastify';
 
-const Cart = ({ player }) => {
-    console.log(player)
+const Cart = ({ player, select, setSelect, priced, setPriced }) => {
+    const[isSelected,setIsSelected]=useState(false)
+    
     const { playerImage, playerName, playerCountry, playerRole,rating, battingStyle, bowlingStyle
         , price
 }=player
+
+const choosePlayerHandle=()=>{
+    toast(<div className="flex items-center gap-2">
+        <CircleCheckBig className="text-green-500" />
+        Add in selected section
+    </div>)
+
+    setSelect([...select,player])
+    setIsSelected(true)
+    if(priced<price){
+        toast(<div>
+            <X></X> <h2>Not enough balance</h2>
+        </div>)
+        return
+    }
+    setPriced(parseInt(priced) - parseInt(price))
+    
+    
+    
+}
     return (
-        <div className=' p-3 bg-white shadow-xl rounded-xl '>
-            <img className=' mb-2 h-[250px] w-[380px] rounded-xl' src={playerImage} alt="" />
+        <div className=' p-4 bg-white shadow-xl rounded-xl '>
+            <img className=' mb-2 object-cover object-top h-[250px] w-[380px] rounded-xl' src={playerImage} alt="" />
             <div className='flex items-center gap-2 m-0'>
                 <img className='w-[20px]' src={img1} alt="" /> <h1 className='font-semibold text-[18px] text-[#131313]'>{playerName}</h1>
             </div>
@@ -28,7 +50,7 @@ const Cart = ({ player }) => {
             </div>
             <div className='flex justify-between items-center'>
                 <h1 className='font-semibold text-[15px]'>Price: {price} USD</h1>
-                <button className="btn mb-3 font-[400] text-[14px]">Choose Player</button>
+                <button disabled={isSelected} onClick={choosePlayerHandle} className="btn mb-3 font-[400] text-[14px]">{isSelected ? "Selected" :"Choose Player"}</button>
             </div>
 
         </div>

@@ -3,7 +3,7 @@ import Cart from './Cart';
 
 
 
-const Available = ({ loadData }) => {
+const Available = ({ loadData, select, setSelect, priced, setPriced }) => {
     
     const players = use(loadData)
 
@@ -15,7 +15,7 @@ const Available = ({ loadData }) => {
                 {/* cart */}
                 
                 {
-                    players.map((player,index) => <Cart key={index} player={player}></Cart>)
+                    players.map((player, index) => <Cart priced={priced} setPriced={setPriced} select={select} setSelect={ setSelect} key={index} player={player}></Cart>)
                 }
 
             </div>

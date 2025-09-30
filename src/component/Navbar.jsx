@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import img1 from"../assets/logo.png"
 import { CircleDollarSign, Menu, X } from 'lucide-react';
 
-const Navbar = () => {
+const Navbar = ({priced }) => {
     const links=[{id:1,name:"Home"},{id:2,name:"Fixture"},{id:3,name:"Teams"},{id:4,name:"Shedules"}]
     const linkss=links.map((link,index)=><li key={index} className='hover:text-pink-600 hover:border-b-[2px] bdown'><a href="">{link.name}</a></li>)
     const [open,setOpen]=useState(false)
@@ -35,7 +35,7 @@ const Navbar = () => {
                         }
                 </ul>
                 <div className='flex justify-center items-center gap-4'>
-                    <button className=' rounded-lg px-5  py-3 border border-gray-200 shadow-sm flex gap-2 font-semibold text-[16px]'>0 Coin <CircleDollarSign className= 'items-center bg-amber-600 rounded-full text-white'></CircleDollarSign></button>
+                    <button className=' rounded-lg px-5  py-3 border border-gray-200 shadow-sm flex gap-2 font-semibold text-[16px]'>{priced} Coin <CircleDollarSign className= 'items-center bg-amber-600 rounded-full text-white'></CircleDollarSign></button>
                 
                     
                 
