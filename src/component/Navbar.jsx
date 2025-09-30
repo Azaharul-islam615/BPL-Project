@@ -4,7 +4,7 @@ import { CircleDollarSign, Menu, X } from 'lucide-react';
 
 const Navbar = () => {
     const links=[{id:1,name:"Home"},{id:2,name:"Fixture"},{id:3,name:"Teams"},{id:4,name:"Shedules"}]
-    const linkss=links.map(link=><li className='hover:text-pink-600 hover:border-b-[2px] bdown'><a href="">{link.name}</a></li>)
+    const linkss=links.map((link,index)=><li key={index} className='hover:text-pink-600 hover:border-b-[2px] bdown'><a href="">{link.name}</a></li>)
     const [open,setOpen]=useState(false)
     const hadlenav=()=>{
         setOpen(!open)

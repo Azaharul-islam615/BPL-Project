@@ -1,0 +1,152 @@
+[
+  {
+    "playerImage": "https://i.ibb.co.com/whLD59Pz/150106-2880x1620-desktop-hd-virat-kohli-background-photo.jpg",
+    "playerName": "Virat Kohli",
+    "playerCountry": "India",
+    "playerRole": "Batsman",
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm medium",
+    "price": "2,000,000 ",
+    "rating": 9.8
+  },
+  {
+    "playerImage": "https://i.ibb.co.com/KxFqGGmB/rohit.jpg",
+    "playerName": "Rohit Sharma",
+    "playerCountry": "India",
+    "playerRole": "Batsman",
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm offbreak",
+    "price": "1,900,000 ",
+    "rating": 9.5
+  },
+  {
+    "playerImage": "https://i.ibb.co.com/WNDWBgbj/stokes.jpg",
+    "playerName": "Ben Stokes",
+    "playerCountry": "England",
+    "playerRole": "All-rounder",
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Right-arm fast-medium",
+    "price": "1,800,000 ",
+    "rating": 9.4
+  },
+  {
+    "playerImage": "https://i.ibb.co.com/8DtsM4ww/rashid.jpg",
+    "playerName": "Rashid Khan",
+    "playerCountry": "Afghanistan",
+    "playerRole": "Bowler",
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm legbreak",
+    "price": "1,500,000 ",
+    "rating": 9.2
+  },
+  {
+    "playerImage": "https://i.ibb.co.com/My1w1b7J/warner.jpg",
+    "playerName": "David Warner",
+    "playerCountry": "Australia",
+    "playerRole": "Batsman",
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Right-arm legbreak",
+    "price": "1,700,000 ",
+    "rating": 9.0
+  },
+  {
+    "playerImage": "https://i.ibb.co.com/N2qnyFX5/bumrah.jpg",
+    "playerName": "Jasprit Bumrah",
+    "playerCountry": "India",
+    "playerRole": "Bowler",
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm fast",
+    "price": "2,200,000 ",
+    "rating": 9.7
+  },
+  {
+    "playerImage": "https://i.ibb.co.com/b5SL2j56/smith.jpg",
+    "playerName": "Steve Smith",
+    "playerCountry": "Australia",
+    "playerRole": "Batsman",
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm legbreak",
+    "price": "1,600,000 ",
+    "rating": 9.3
+  },
+  {
+    "playerImage": "https://i.ibb.co.com/HL3W55VR/willamson.webp",
+    "playerName": "Kane Williamson",
+    "playerCountry": "New Zealand",
+    "playerRole": "Batsman",
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm offbreak",
+    "price": "1,500,000 ",
+    "rating": 9.4
+  },
+  {
+    "playerImage": "https://i.ibb.co.com/hJBpZdYD/sakib.jpg",
+    "playerName": "Shakib Al Hasan",
+    "playerCountry": "Bangladesh",
+    "playerRole": "All-rounder",
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Left-arm orthodox",
+    "price": "1,400,000 ",
+    "rating": 9.1
+  },
+  {
+    "playerImage": "https://i.ibb.co.com/hJRzRq4d/azam.jpg",
+    "playerName": "Babar Azam",
+    "playerCountry": "Pakistan",
+    "playerRole": "Batsman",
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm offbreak",
+    "price": "1,800,000 ",
+    "rating": 9.6
+  },
+  {
+    "playerImage": "https://i.ibb.co.com/wrPq6b8Q/dhoni.jpg",
+    "playerName": "MS Dhoni",
+    "playerCountry": "India",
+    "playerRole": "Wicketkeeper-Batsman",
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm medium",
+    "price": "2,100,000 ",
+    "rating": 9.9
+  },
+  {
+    "playerImage": "https://i.ibb.co.com/ccMdmRkW/rasel.jpg",
+    "playerName": "Andre Russell",
+    "playerCountry": "West Indies",
+    "playerRole": "All-rounder",
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm fast",
+    "price": "1,900,000 ",
+    "rating": 9.2
+  },
+  {
+    "playerImage": "https://i.ibb.co.com/MvYnyrW/knock.jpg",
+    "playerName": "Quinton de Kock",
+    "playerCountry": "South Africa",
+    "playerRole": "Wicketkeeper-Batsman",
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Right-arm offbreak",
+    "price": "1,500,000 ",
+    "rating": 8.9
+  },
+  {
+    "playerImage": "https://i.ibb.co.com/MD1J1F7j/bolt.jpg",
+    "playerName": "Trent Boult",
+    "playerCountry": "New Zealand",
+    "playerRole": "Bowler",
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Left-arm fast-medium",
+    "price": "1,600,000 ",
+    "rating": 9.0
+  },
+  {
+    "playerImage": "https://i.ibb.co.com/kg5y2K6m/rezuan.jpg",
+    "playerName": "Mohammad Rizwan",
+    "playerCountry": "Pakistan",
+    "playerRole": "Wicketkeeper-Batsman",
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm medium",
+    "price": "1,400,000 ",
+    "rating": 9.1
+  }
+]
